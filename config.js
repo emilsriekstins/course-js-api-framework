@@ -13,14 +13,17 @@ export const config = {
         gender: 'male',
         status: 'active'
     },
+    BOOKS_LOCAL: {
+        host: 'http://sample-book-app-local:1050'
+    },
     BOOKS_DEV: {
-        host: 'http://localhost:1010'
+        host: 'http://sample-book-app-dev:1050'
     },
     BOOKS_STG: {
-        host: 'http://localhost:2020'
+        host: 'http://sample-book-app-stg:1050'
     },
     BOOKS_PRD: {
-        host: 'http://localhost:3030'
+        host: 'http://sample-book-app-prd:1050'
     },
     greetings_dev: {
         host: 'http://127.0.0.1:7001'
