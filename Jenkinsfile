@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    triggers {
+        prollSCM('*/1 * * * *')
+    }
     stages {
          stage('build-api-test-image') {
             steps {
